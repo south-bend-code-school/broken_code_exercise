@@ -1,0 +1,113 @@
+body {
+  margin: 0 auto;
+  background-image: url("http://www.thewrap.com/wp-content/uploads/2016/09/Adventure-Time.jpg");
+  font-family: 'Pacifico', cursive;
+}
+
+h1
+  font-size: 5em;
+  text-align: center;
+  border: 10px dotted white
+  margin-left: 10%;
+  margin-right: 10%;
+
+
+.row {
+width: 100%;
+height: 300px;
+padding: 0 0.5%;
+float: left;
+}
+
+.box{
+  height: 100%;
+  width: 33.3%;
+  /*border: 2px solid black;*/
+  display: inline-block;
+  float: left;
+}
+
+#box1 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('highschool.png');
+  background-size: 101%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box1:hover {
+  background-size: 115%;
+  background-image: url('highschool.JPG');
+}
+
+#box2 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('kids.JPG');
+  background-size: 101%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box2:hover {
+  background-size: 115%;
+  background-image: url('kids.JPG');
+}
+
+#box3 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('codeschool.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box3:hover {
+  background-size: 115%;
+  background-image: url('codeschool.JPG');
+}
+
+#box5 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('amber.JPG');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box5:hover {
+  background-size: 130%;
+  background-image: url('amber.JPG');
+}
+
+#box6 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('ladies.JPG');
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box6:hover {
+  background-size: 115%;
+  background-image: url('ladies.JPG');
+}
+
+
+#box4 {
+  background:linear-gradient(rgba(255, 102, 0, 0.4),rgba(255, 102, 0, 0.4)),url('london.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#box4:hover {
+  background-size: 110%;
+  background-image: url('london.jpg');
+}
